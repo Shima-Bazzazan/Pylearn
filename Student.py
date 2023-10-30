@@ -11,7 +11,7 @@ grade3=float(input("third grade: "))
 ave=(grade1 + grade2 + grade3) / 3
 
 if ave>=17:
-    print("Dear", name, "your GPA is", ave,".Your academic status is Great.")
+    print("Dear", name, "your GPA is", ave,".Your academic status is Great. ")
 
 elif ave<17 and ave>=12:
     print("Dear", name, "your GPA is", ave,".Your academic status is Normal.")
