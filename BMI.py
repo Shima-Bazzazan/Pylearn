@@ -27,4 +27,4 @@ elif 35<=bmi<40:
     print("your body mass index is Extreme Obesity")
 
 else:
-    print(":|")
+    print (":|")
