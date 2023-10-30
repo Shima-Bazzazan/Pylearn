@@ -17,6 +17,7 @@ print("11. log")
 choice=input()
 
 if choice=="1" or choice=="2" or choice=="3" or choice=="4":
+    
     num1=float(input("Please nter your first number: "))
     num2=float(input("Please enter your second number: "))
 
