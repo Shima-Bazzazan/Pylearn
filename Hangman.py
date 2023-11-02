@@ -42,6 +42,5 @@ while user_mistakes<6:
             temp=0
             break
 
-
 if len(bad_chars)==6:
     print("You losse ☠")
