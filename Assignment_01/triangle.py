@@ -1,13 +1,23 @@
-print("Please enter the sides of the triangle:")
-print("(The size of the sides must be greater than zero)")
+#Make_Triangle
 
-a=float(input("1."))
-b=float(input("2."))
-c=float(input("3."))
+def triangle():
+    
+    try:
+        print("Please enter the sides of the triangle:")
+        print("(The size of the sides must be greater than zero)")
+        print()
+        
+        num1 = float(input("The length of first side: "))
+        num2 = float(input("The length of second side: "))
+        num3 = float(input("The length of third side: "))
 
-if a<=0 or b<=0 or c<=0:
-    print("There is no such triangle")
-elif a<b+c and b<a+c and c<b+a:
-    print("We have a triangle :)")
-else:
-    print("There is no such triangle")
+        if (num1 + num2 > num3 and num2 + num3 > num1 and num3 + num1 > num2):
+            print("We have a triangle :)")
+
+        else:
+            print("There is no such triangle!")
+            
+    except:
+             print("Inputs is not valid")
+
+triangle()
