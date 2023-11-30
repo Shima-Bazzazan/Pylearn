@@ -28,3 +28,4 @@ elif 35<=bmi<40:
 
 else:
     print(":|")
+    
