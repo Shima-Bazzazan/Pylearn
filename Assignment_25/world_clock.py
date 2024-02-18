@@ -3,8 +3,7 @@ import time
 from PySide6.QtWidgets import *
 from PySide6.QtGui import * 
 from PySide6.QtCore import *
-#from PySide6.QtUiTools import QUiLoader
-from mytime import MyTime
+from my_time import MyTime
 from datetime import datetime 
 import pytz
 
