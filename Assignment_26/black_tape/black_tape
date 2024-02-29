@@ -1,0 +1,15 @@
+import cv2 
+
+image = cv2.imread("Babayi.jpg")
+resize_img = cv2.resize(image ,[440 , 600])
+gray_img =cv2.cvtColor(resize_img , cv2.COLOR_BGR2GRAY)
+x = 0
+for i in range(160):
+    gray_img[115-x:160-x , 0+x:1+x] = 0
+    if x >= 115 :
+        gray_img[0:160-x , 0+x:1+x] = 0
+    x+= 1
+    
+cv2.imshow("black tape ",gray_img)
+cv2.imwrite("black_tape.jpg" , gray_img)
+cv2.waitKey()
