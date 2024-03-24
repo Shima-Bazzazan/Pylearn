@@ -4,7 +4,7 @@ cap = cv2.VideoCapture(1)
 _ , frame = cap.read()
 rows = frame.shape[0]
 cols = frame.shape[1]
-writer = cv2.VideoWriter("cam.mp4" , cv2.VideoWriter_fourcc(*'mp4v') , 30 , (cols , rows))
+
 while True:
     _ , frame = cap.read()
     frame = cv2.cvtColor(frame , cv2.COLOR_BGR2GRAY)
@@ -18,10 +18,7 @@ while True:
             if frame[i ,j] > 180 and frame[i ,j] <= 255 :
                 cv2.putText(frame , "White " , (450 , 90) , cv2.FONT_HERSHEY_SIMPLEX , 1 , 6 , 3)
 
-    writer.write(frame)
-    cv2.imshow("result" , frame)
+    
+    cv2.imshow("camera" , frame)
     if cv2.waitKey(25) & 0xFF == ord("q"):
         break
-        
-
-writer.release()
