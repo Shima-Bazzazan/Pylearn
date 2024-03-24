@@ -1,27 +1,33 @@
 import cv2 
 import numpy as np 
+import imageio
 
 array = []
-img = cv2.imread("snow.jpg")
-img = cv2.resize(img, [680, 450])
-img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-rows, cols = img.shape
-for i in range(2000):
+image = cv2.imread("snow.jpeg")
+image = cv2.resize(image, [680, 450])
+image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+rows, cols = image.shape
+for i in range(3000):
     speed = np.random.randint(1, 10)
     domain = np.random.randint(-4, 4)
     size = np.random.randint(1, 3)
     array.append([np.random.randint(0, cols), np.random.randint(0, rows), size, domain , speed])
 
+frames = []
 while True :
-    img = cv2.imread("sn.jpg")
-    img = cv2.resize(img, [680, 450])
-    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    image = cv2.imread("snow.jpeg")
+    image = cv2.resize(image, [680, 450])
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     for i in range(2000):
-        img[array[i][0] : array[i][0]+array[i][2]  ,  array[i][1] : array[i][1]+array[i][2]  ] = 255
+        image[array[i][0] : array[i][0]+array[i][2]  ,  array[i][1] : array[i][1]+array[i][2]  ] = 255
         array[i][0] +=  array[i][4]
         array[i][1] +=  array[i][3]
         if array[i][0] > cols:
             array[i][0] = 0
-    cv2.imshow("result" , img)
+    frames.append(image)
+    
+    cv2.imshow("snowfall" , image)
     if cv2.waitKey(25) & 0xFF == ord("q"):
         break
+
+imageio.mimsave ("snowfall.gif", frames)
