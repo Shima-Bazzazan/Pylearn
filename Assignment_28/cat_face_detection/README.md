@@ -1,5 +1,5 @@
 
-# Cat Face Detection 😸🐱😻
+# Cat Face Detection 🐱😸😻
 Cat face recognition project in the image by using OpenCV
 
 ## How to Install
