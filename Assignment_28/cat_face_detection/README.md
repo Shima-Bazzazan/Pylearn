@@ -1,6 +1,6 @@
 
 # Cat Face Detection 🐱😸😻
-Cat face recognition project in the image by using OpenCV
+Cat face detection in the image by using OpenCV
 
 ## How to Install
 Run following command:
