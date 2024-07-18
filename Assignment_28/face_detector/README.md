@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 
 ### How to run
-
+Execute this command in terminal:
 ```
 python face_detector.py
 ```
