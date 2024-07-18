@@ -1,4 +1,4 @@
-# Face filter
+# Face Filter
 Turn on your webcam and press one of the keys (1, 2, 3, 4) and enjoy the filters.
 ### How to Install
 
