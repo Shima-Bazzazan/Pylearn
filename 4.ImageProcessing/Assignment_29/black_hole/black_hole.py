@@ -17,3 +17,16 @@ def noise_reducer(images_folder):
     result = result / len(images)
     result = result.astype(np.uint8)
     return result
+
+image_parts = []
+for i in range(4):
+    result = noise_reducer("input/" + str(i+1))
+    cv2.imwrite("output/" + str(i+1) + "/modified_" + str(i+1) + ".jpg", result)
+    image_parts.append(result)
+
+os.makedirs
+image_top = np.concatenate((image_parts[0], image_parts[1]), axis=1)
+image_bottom = np.concatenate((image_parts[2], image_parts[3]), axis=1)
+image_black_hole = np.concatenate((image_top, image_bottom), axis=0)
+image_black_hole = image_black_hole.astype(np.uint8)
+cv2.imwrite("output/image_black_hole.jpg", image_black_hole)
