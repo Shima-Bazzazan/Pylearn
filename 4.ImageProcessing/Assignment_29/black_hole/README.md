@@ -14,3 +14,4 @@ python black_hole.py
 ```
 
 ## Result
+![image_black_hole](https://github.com/user-attachments/assets/ae955dfc-3df9-4f56-8d69-fc482afe55f7)
