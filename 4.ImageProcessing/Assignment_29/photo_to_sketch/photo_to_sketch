@@ -1,0 +1,13 @@
+import cv2
+
+image_snape = cv2.imread("input/severus_snape.jpg")
+image_snape = cv2.cvtColor(image_snape, cv2.COLOR_BGR2GRAY)
+
+inverted = 255 - image_snape
+blurred = cv2.GaussianBlur(inverted, (13, 13), 0)
+inverted_blurred = 255 - blurred
+
+sketch = image_snape / inverted_blurred
+sketch = sketch * 255
+
+cv2.imwrite("output/snape.jpg", sketch)
