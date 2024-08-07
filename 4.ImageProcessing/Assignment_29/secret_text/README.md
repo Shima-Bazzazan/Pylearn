@@ -11,3 +11,4 @@ Execute this command in terminal:
 python secret_text.py
 ```
 ## Result
+![secret_text](https://github.com/user-attachments/assets/dbd51487-671d-4cf2-bac5-1d50418ade6a)
