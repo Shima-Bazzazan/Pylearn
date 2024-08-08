@@ -16,3 +16,4 @@ python virtual_decoration.py
 ```
 
 ## Result
+![room](https://github.com/user-attachments/assets/f3424b0f-d35a-4369-9e65-bd05d64c5f08)
