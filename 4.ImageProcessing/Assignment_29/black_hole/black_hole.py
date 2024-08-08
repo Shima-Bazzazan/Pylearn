@@ -24,7 +24,6 @@ for i in range(4):
     cv2.imwrite("output/" + str(i+1) + "/modified_" + str(i+1) + ".jpg", result)
     image_parts.append(result)
 
-os.makedirs
 image_top = np.concatenate((image_parts[0], image_parts[1]), axis=1)
 image_bottom = np.concatenate((image_parts[2], image_parts[3]), axis=1)
 image_black_hole = np.concatenate((image_top, image_bottom), axis=0)
