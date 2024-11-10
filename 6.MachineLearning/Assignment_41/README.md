@@ -1,6 +1,6 @@
 # k-Nearest Neighbors (KNN) 
 
-k-Nearest Neighbors (kNN) algorithm is implemented in a fruits classification problem.
+The k-Nearest Neighbors (kNN) algorithm is applied to a fruit classification problem.
 
 ## How to Install
 Run following command:
