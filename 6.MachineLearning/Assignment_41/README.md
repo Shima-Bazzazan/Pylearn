@@ -1,4 +1,4 @@
-# k-Nearest Neighbors (KNN) 
+# k-Nearest Neighbors (KNN) 🍎🍌🍉
 
 The k-Nearest Neighbors (kNN) algorithm is applied to a fruit classification problem.
 
