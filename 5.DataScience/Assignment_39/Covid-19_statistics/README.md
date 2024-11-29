@@ -17,5 +17,5 @@ pip install -r requirements.txt
 ### How to Run
 Execute this command in terminal:
 ```
-python Covid-19.ipynb
+jupyter notebook Covid-19.ipynb
 ```
