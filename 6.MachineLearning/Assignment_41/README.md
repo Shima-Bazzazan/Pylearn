@@ -16,5 +16,5 @@ pip install -r requirements.txt
 ### How to Run
 Execute this command in terminal:
 ```
-python fruits_kNN.ipynb
+jupyter notebook fruits_kNN.ipynb
 ```
