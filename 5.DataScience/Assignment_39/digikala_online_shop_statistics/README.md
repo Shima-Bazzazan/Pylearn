@@ -16,5 +16,5 @@ pip install -r requirements.txt
 ### How to Run
 Execute this command in terminal:
 ```
-python digikala.ipynb
+jupyter notebook digikala.ipynb
 ```
