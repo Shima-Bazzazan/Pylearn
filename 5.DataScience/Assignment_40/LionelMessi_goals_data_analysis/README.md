@@ -16,5 +16,5 @@ pip install -r requirements.txt
 Execute this command in terminal:
 
 ```
-python messi.ipynb
+jupyter notebook messi.ipynb
 ```
