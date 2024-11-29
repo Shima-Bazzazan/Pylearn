@@ -35,5 +35,5 @@ In this project the size and colors of points are used to indicate the area and 
 ### How to Run
 Execute this command in terminal:
 ```
-python california_cities.ipynb
+jupyter notebook california_cities.ipynb
 ```
