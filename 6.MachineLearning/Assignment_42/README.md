@@ -25,5 +25,5 @@ pip install -r requirements.txt
 ### How to Run
 Execute this command in terminal:
 ```
-python kNN_ANSUR_II_4features.ipynb
+jupyter notebook kNN_ANSUR_II_4features.ipynb
 ```
