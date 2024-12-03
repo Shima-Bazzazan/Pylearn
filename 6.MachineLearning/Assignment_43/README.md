@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ### How to Run
 Execute this command in terminal:
 ```
-jupyter notebook finding_nemo_kNN_auto.ipynb
+jupyter notebook finding_nemo_kNN.ipynb
 ```
 
 ## Finding Dory 🐟
