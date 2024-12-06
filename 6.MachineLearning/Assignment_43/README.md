@@ -14,6 +14,10 @@ pip install -r requirements.txt
 
 <img src="finding_Nemo\output\output.png" width="600">
 
+### Testing the algorithm:
+
+<img src="finding_Nemo\output\final_result1.png" width="600">
+<img src="finding_Nemo\output\final_result_2.png" width="600">
 
 ### How to Run
 Execute this command in terminal:
