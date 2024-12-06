@@ -1,4 +1,4 @@
-# kNN algorithm training and testing projects
+# kNN Algorithm Training And Testing Projects
 
 ## How to Install
 Run following command:
@@ -30,10 +30,12 @@ jupyter notebook finding_nemo_kNN_auto.ipynb
 
 ## Results
 
-<img src="finding_Dory\output\output.png" width="600">
+<img src="finding_Dory\output\final_result.png" width="600">
 
 ### Testing the algorithm:
-<img src="finding_Dory\output\output_2.png" width="600">
+<img src="finding_Dory\output\final_result_1.png" width="600">
+<img src="finding_Dory\output\final_result_2.png" width="600">
+<img src="finding_Dory\output\final_result_3.png" width="600">
 
 ### How to Run
 Execute this command in terminal:
