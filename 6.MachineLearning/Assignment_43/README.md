@@ -37,10 +37,14 @@ Execute this command in terminal:
 jupyter notebook finding_dory_kNN.ipynb
 ```
 ## The Iris Dataset 
-<p align="center">
-  <img src="Iris_dataset\output\plot_1.png" alt="Image 1" width="45%" />
-  <img src="Iris_dataset\output\plot_2.png" alt="Image 2" width="45%" />
-</p>
+<img src="Iris_dataset\output\plots.png" width="800">
+
+## Results
+
+### Accuracy results for different amounts of k:
+|k| k = 3  | k = 5  |k = 7 |
+|----|----------|----------|----------|
+| Accuracy|0.9666 | 0.9666 | 0.9666 |
 
 
 ### Confusion Matrix:
@@ -55,6 +59,13 @@ jupyter notebook iris_kNN.ipynb
 
 ## Breast Cancer Dataset
 
+## Results
+
+### Accuracy results for different amounts of k:
+
+|k| k = 3  | k = 5  |k = 7 |
+|----|----------|----------|----------|
+| Accuracy|0.9122 | 0.9210 | 0.9298 |
 ### Confusion Matrix:
 
 <img src="breast_cancer\output\plot.png" width="400">
