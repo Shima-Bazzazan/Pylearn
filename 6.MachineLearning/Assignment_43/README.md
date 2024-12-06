@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ## Results
 
 
-<img src="finding_Nemo\output\output.png" width="600">
+<img src="finding_Nemo\output\final_result.png" width="600">
 
 ### Testing the algorithm:
 
