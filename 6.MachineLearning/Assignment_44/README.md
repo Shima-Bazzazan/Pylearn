@@ -5,6 +5,19 @@ Run following command:
 ```
 pip install -r requirements.txt
 ```
+## Abalone Dataset (Regression)
+
+## Result
+
+<img src="Abalone_dataset_(Regression)\output\plot.png">
+
+
+### How to Run
+Execute this command in terminal:
+```
+jupyter notebook LLS_Abalone_dataset.ipynb
+```
+
 ## Students Performance (Regression)👨🏻‍🎓👩🏽‍🎓
 <img src="students_performance_(Regression)\output\plot.png" width="400">
 
@@ -19,7 +32,7 @@ Execute this command in terminal:
 jupyter notebook LLS_students_performance.ipynb
 ```
 ## Boston Housing Prices (Regression)🏡
-<img src="Boston_house-prices_(Regression)\output\confusion_matrix_boston_house_pricing.png" width="500">
+<img src="Boston_house-prices_(Regression)\output\confusion_matrix_boston_house_pricing.png" width="400">
 
 ## Result
 
