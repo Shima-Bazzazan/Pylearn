@@ -19,11 +19,11 @@ Execute this command in terminal:
 jupyter notebook LLS_students_performance.ipynb
 ```
 ## Boston Housing Prices (Regression)🏡
-<img src="Boston_house-prices_(Regression)\output\confusion_matrix_boston_house_pricing.png" width="400">
+<img src="Boston_house-prices_(Regression)\output\confusion_matrix_boston_house_pricing.png" width="500">
 
 ## Result
 
-<img src="Boston_house-prices_(Regression)\output\3d_plot.png" width="500">
+<img src="Boston_house-prices_(Regression)\output\3d_plot.png" width="400">
 
 
 ### How to Run
