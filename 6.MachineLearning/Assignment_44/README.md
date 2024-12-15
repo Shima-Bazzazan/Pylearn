@@ -23,7 +23,7 @@ jupyter notebook LLS_students_performance.ipynb
 
 ## Result
 
-<img src="Boston_house-prices_(Regression)\output\3d_plot.png" width="400">
+<img src="Boston_house-prices_(Regression)\output\3d_plot.png" width="500">
 
 
 ### How to Run
