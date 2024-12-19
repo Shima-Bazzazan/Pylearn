@@ -32,7 +32,7 @@ Execute this command in terminal:
 jupyter notebook LLS_students_performance.ipynb
 ```
 ## Boston Housing Prices (Regression)🏡
-<img src="Boston_house-prices_(Regression)\output\Correlation_Matrix.png" width="400">
+<img src="Boston_house-prices_(Regression)\output\Correlation_Matrix.png" width="500">
 
 ## Result
 
